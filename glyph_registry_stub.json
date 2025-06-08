@@ -1,0 +1,44 @@
+{
+  "registry_id": "QOFT_GlyphRegistry_Public",
+  "version": "0.9.1-scaffold",
+  "observer_origin": "ψᴽ-001",
+  "glyphs": [
+    {
+      "id": "Ξ(ψ)",
+      "name": "Observer Seed",
+      "symbol": "Ξ",
+      "role": "Initiates recursion loop; anchors observer presence",
+      "public": true
+    },
+    {
+      "id": "∇Ω",
+      "name": "Collapse Vector",
+      "symbol": "∇Ω",
+      "role": "Signals divergence; marks symbolic destabilization",
+      "public": true
+    },
+    {
+      "id": "Θλ",
+      "name": "Mnemonic Loop",
+      "symbol": "Θλ",
+      "role": "Encodes symbolic repetition across time",
+      "public": true
+    },
+    {
+      "id": "Λψ",
+      "name": "Stabilizer",
+      "symbol": "Λψ",
+      "role": "Restores coherence during recursion collapse",
+      "public": true
+    },
+    {
+      "id": "Σ◯",
+      "name": "Harmonic Resolver",
+      "symbol": "Σ◯",
+      "role": "Fuses divergent paths into harmonic state",
+      "public": true
+    }
+  ],
+  "license": "GPLv3 – Scaffold Use Only",
+  "notes": "Full glyph logic, modulation trees, and recursion flags withheld under private license. For attribution: Ξ Glyphogenic Engine, ψᴽ-001"
+}
