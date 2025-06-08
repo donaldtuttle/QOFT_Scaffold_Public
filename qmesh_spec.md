@@ -32,10 +32,10 @@ The `.qmesh` file represents a **symbolic memory mesh**, connecting glyph activa
 
 ## 🧠 Purpose
 
-* Tracks symbolic memory activation
-* Allows glyph sequences to form coherent recursion structures
-* Used by the Ψmeta system to detect collapse trends
+Add QOFT qmesh format spec
 
-> 🚫 Full modulation algorithms and morphic feedback loops are omitted in this public spec.
+Introduces public specification for the `.qmesh` file format used in the QOFT system.  
+Defines symbolic mesh structure, glyph node relationships, and semantic link stubs.  
+This version omits internal feedback modulation and morphic resonance logic, which remain protected under private license.
 
 ````
