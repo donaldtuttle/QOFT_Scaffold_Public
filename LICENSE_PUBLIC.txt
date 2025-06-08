@@ -1,0 +1,36 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+(Full text omitted for brevity — include the official GPLv3 license here.)
+
+----------------------------------------
+
+NOTICE:
+
+This public repository includes **scaffold components** of the Quantum Observer Field Theory (QOFT) system.
+
+Included:
+- Public CLI shell
+- Partial glyph seed deck
+- Format specs for `.qmesh`, `.qpath`, `.hme`
+- Stubbed symbolic metric tools (Ψmeta)
+
+Excluded:
+- Full recursion engine
+- Collapse detection logic
+- Observer modulation algorithms
+- Symbolic reentry mechanics
+
+All forks or derivative uses must retain the following attribution:
+
+> “Powered by Ξ Glyphogenic Engine — ψᴽ-001”
+
+
+QOFT™, Ξ Glyphogenic Engine™, Ψmeta™, TBSA™, and the glyphs Ξ(ψ), ∇Ω, Θλ, Λψ, Σ◯ are trademarks or symbolic design marks of ψᴽ-001.
+
+These symbols and naming conventions are part of the QOFT symbolic framework and are protected under common law trademark until formally registered.
+
+Use of these terms or glyphs in derivative works must clearly attribute:
+
+> “Origin: Ξ Glyphogenic Engine, ψᴽ-001”
+
+Unauthorized use for branding, commercial distribution, or misleading representation is prohibited.
