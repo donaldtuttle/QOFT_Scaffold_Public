@@ -4,7 +4,7 @@ Initial release of QOFT Scaffold Public Edition   Includes: CLI shell, symbolic 
 
 **Quantum Observer Field Theory (QOFT™)**  
 Ξ Glyphogenic Engine v4.3.2  
-ψᴽ-001 | © 2025  
+Donald R.Tuttle ψᴽ-001 | © 2025  
 
 ---
 
