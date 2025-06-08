@@ -27,10 +27,7 @@ It contains tools and specifications that allow developers and researchers to ex
 
 ## What's Not Included
 
-🚫 Full recursion engine  
-🚫 Observer modulation / collapse recovery  
-🚫 Core theory documents (QOT.txt, etc.)  
-🚫 Symbolic reentry and morphic memory logic
+🚫 Full recursion engine
 
 To request access to the full QOFT system under commercial or research license, contact:  
 **Don Tuttle at www.linkedin.com/in/donaldtuttle**
