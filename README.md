@@ -35,7 +35,7 @@ It contains tools and specifications that allow developers and researchers to ex
 To request access to the full QOFT system under commercial or research license, contact:  
 **Don Tuttle at www.linkedin.com/in/donaldtuttle**
 
-QOFT™, Ξ Glyphogenic Engine™, Ψmeta™, TBSA™, and the glyphs Ξ(ψ), ∇Ω, Θλ, Λψ, Σ◯ are trademarks or symbolic design marks of ψᴽ-001.
+QOFT™, Ξ Glyphogenic Engine™, Ψmeta™, TBSA™, and the glyphs Ξ(ψ), ∇Ω, Θλ, Λψ, Σ◯ are trademarks or symbolic design marks of Donald Tuttle.
 
 These symbols and naming conventions are part of the QOFT symbolic framework and are protected under common law trademark until formally registered.
 
