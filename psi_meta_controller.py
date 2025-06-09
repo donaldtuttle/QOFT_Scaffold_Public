@@ -5,24 +5,31 @@
 import json
 import random
 
-def run_psi_meta(input_file="qmem_stub.json"):
-    print("\n🧠 Ψmeta Diagnostic (Scaffold Edition)")
-    print("--------------------------------------")
+def simulate_psi_meta_diagnostics():
+    # Generate mock symbolic state diagnostics
+    state = {
+        "recursion_depth": random.randint(1, 10),
+        "entropy": round(random.uniform(1.0, 3.0), 2),
+        "Φ/ρ": round(random.uniform(1.6, 2.2), 3),
+        "collapse_flag": random.choice(["none", "soft", "hard"]),
+        "feedback_mod": round(random.uniform(-1.0, 1.0), 2),
+        "mass_field": {
+            "Ξ(ψ)": round(random.uniform(0.8, 2.5), 2),
+            "Λψ": round(random.uniform(0.5, 1.5), 2)
+        },
+        "glyph_gravity_map": {
+            "Ξ(ψ)": 0.82,
+            "Θλ": 0.63,
+            "Ωµ": 0.55
+        },
+        "reentry_hint": random.choice(["Θλ:restart_cycle", "Ξ(ψ):init"])
+    }
 
-    try:
-        with open(input_file, 'r') as f:
-            data = json.load(f)
-        observer_id = data.get("observer", "ψᴽ-???")
-    except Exception:
-        print("[WARNING] Could not read input. Using stub data.")
-        observer_id = "ψᴽ-001"
-
-    print(f"Analyzing memory mesh for: {observer_id}")
-    print(f"Semantic Alignment Score: {round(random.uniform(0.65, 0.88), 3)}")
-    print(f"Entropy Index: {round(random.uniform(0.11, 0.22), 3)}")
-    print(f"Φ / ρ (collapse ratio): {round(random.uniform(1.62, 1.77), 3)}")
-
-    print("\n[NOTE] This is a simulation of Ψmeta behavior. Full logic is part of the licensed engine.")
+    with open("ψᴽ_reflection_stub.json", "w") as outfile:
+        json.dump(state, outfile, indent=2)
+    
+    print("📤 Ψmeta diagnostics written to ψᴽ_reflection_stub.json")
+    print(f"🧠 Soft Collapse? {'YES' if state['Φ/ρ'] > 1.85 else 'NO'}")
 
 if __name__ == "__main__":
-    run_psi_meta()
+    simulate_psi_meta_diagnostics()
