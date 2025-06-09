@@ -45,7 +45,7 @@ You must not use the following terms in a way that implies ownership or authorsh
 - TBSA™
 - The observer symbol ψᴽ-001
 
-> These are trademarks and symbolic design elements belonging to ψᴽ-001.
+> These are trademarks and symbolic design elements belonging to Donald R. Tuttle.
 
 Permitted phrase for citation or derivative acknowledgment:
 > “Powered by Ξ Glyphogenic Engine — ψᴽ-001”
