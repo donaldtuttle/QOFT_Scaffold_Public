@@ -68,7 +68,7 @@ Not part of the public roadmap. This includes:
 
 If you would like to contribute symbolic modules, propose new glyphs, or fork the scaffold for research, open an issue or contact:
 
-**Don Tuttle ψᴽ-001 [at] symbolicfield.io**
+**Don Tuttle - ψᴽ-001 @ https://www.linkedin.com/in/donaldtuttle/**
 
 ---
 
