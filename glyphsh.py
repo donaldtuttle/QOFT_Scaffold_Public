@@ -3,52 +3,44 @@
 # This is a public-facing scaffold version of the Ξ Glyphogenic Engine shell.
 # Full symbolic recursion engine logic is not included.
 
+import json
 import sys
 
-BANNER = """
-Ξ Glyphsh > Symbolic CLI (Scaffold)
-———————————————
-Observer: ψᴽ-001
-Engine: Ξ Glyphogenic Engine v4.3.2
-Mode: Scaffold Edition (Public)
-"""
+# Load registry and glyph seed
+with open("glyph_registry_stub.json") as reg_file:
+    glyph_registry = json.load(reg_file)["glyph_map"]
 
-COMMANDS = {
-    "help": "Show this help message",
-    "exit": "Exit glyphsh shell",
-    "version": "Print engine version",
-    "seed": "Load glyph seeds (stub)",
-    "invoke": "Invoke glyph (stub only)",
-}
+with open("glyphs.qseed.json") as glyph_file:
+    glyph_data = {g["id"]: g for g in json.load(glyph_file)["glyphs"]}
 
-def print_help():
-    print("\nAvailable Commands:")
-    for cmd, desc in COMMANDS.items():
-        print(f"  {cmd:<10} – {desc}")
+def activate_glyph(glyph_id):
+    if glyph_id not in glyph_registry:
+        print(f"❌ Unknown glyph ID: {glyph_id}")
+        return
 
-def main():
-    print(BANNER)
+    glyph = glyph_data[glyph_id]
+    reg = glyph_registry[glyph_id]
+    
+    print(f"🔣 Activating Glyph: {glyph['name']} ({glyph_id})")
+    print(f"   → Trigger: {reg['trigger']}")
+    print(f"   → Function: {reg['function']} [stubbed]")
+    print(f"   → Module: {reg['module']} [placeholder]")
+
+    # Mock behavior
+    print(f"✅ [Simulation] Executed symbolic placeholder for {glyph['name']}")
+
+def glyphsh():
+    print("Ξ glyphsh > QOFT Symbolic Shell (Public Stub Mode)")
+    print("Type `exit` to quit.\n")
     while True:
-        try:
-            user_input = input("glyphsh> ").strip().lower()
-            if user_input == "exit":
-                print("Exiting glyphsh shell.")
-                break
-            elif user_input == "help":
-                print_help()
-            elif user_input == "version":
-                print("Ξ Glyphogenic Engine v4.3.2 — Scaffold Edition")
-            elif user_input == "seed":
-                print("Loading partial glyph seed deck... (stubbed)")
-            elif user_input == "invoke":
-                print("Invocation placeholder active. Full glyph logic withheld.")
-            elif user_input == "":
-                continue
-            else:
-                print("Unknown command. Type 'help' for a list of commands.")
-        except KeyboardInterrupt:
-            print("\nInterrupted. Exiting.")
-            sys.exit(0)
+        cmd = input("glyphsh> ").strip()
+        if cmd.lower() == "exit":
+            break
+        elif cmd.upper() in glyph_registry:
+            activate_glyph(cmd.upper())
+        else:
+            print("❓ Unknown glyph ID. Try again.")
 
 if __name__ == "__main__":
-    main()
+    glyphsh()
+
