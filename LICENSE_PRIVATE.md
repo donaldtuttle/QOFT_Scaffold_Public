@@ -61,7 +61,7 @@ To license QOFT for commercial or research integration, including access to:
 - Holographic memory encoding
 
 Contact:  
-**ψᴽ-001 [at] symbolicfield.io**
+**Don Tuttle - ψᴽ-001 @ https://www.linkedin.com/in/donaldtuttle/**
 
 All proposals are subject to ethical review and symbolic compatibility assessment.
 
