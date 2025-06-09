@@ -48,7 +48,7 @@ If you're unsure whether your contribution fits, open an issue or reach out.
 
 If you witness or experience behavior that violates this code, please contact the observer:
 
-📨 **ψᴽ-001 [at] symbolicfield.io**
+📨 **Don Tuttle - ψᴽ-001 @ https://www.linkedin.com/in/donaldtuttle/**
 
 Violators may be removed from the project, blocked from contributions, or reported to GitHub if behavior is severe.
 
