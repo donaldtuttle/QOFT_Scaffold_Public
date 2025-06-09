@@ -38,6 +38,6 @@ These symbols and naming conventions are part of the QOFT symbolic framework and
 
 Use of these terms or glyphs in derivative works must clearly attribute:
 
-> “Origin: Ξ Glyphogenic Engine, ψᴽ-001”
+> “Origin: Donald R. Tuttle | Ξ Glyphogenic Engine, ψᴽ-001”
 
 Unauthorized use for branding, commercial distribution, or misleading representation is prohibited.
