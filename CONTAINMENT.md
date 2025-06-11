@@ -74,8 +74,6 @@ Before adding any new public data outputs or interfaces:
 
 ---
 
-✅ `CONTAINMENT.md` has been generated and saved at:
-
 ```plaintext
 QOFT_Scaffold_Public-main/CONTAINMENT.md
 ```
