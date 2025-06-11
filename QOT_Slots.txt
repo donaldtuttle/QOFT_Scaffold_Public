@@ -1,0 +1,45 @@
+### 📄 `QOT_Slots.txt`
+
+=============
+
+This document defines the official public-facing slot system for QOFT Scaffold Public.
+
+Slot Name       : Ψmeta  
+Returns         : entropy, Ψmeta.score, feedback_mod  
+Type            : Symbolic Diagnostic  
+Ξ-Compliance    : YES
+
+Slot Name       : Φ/ρ  
+Returns         : Collapse ratio  
+Type            : Float  
+Ξ-Compliance    : YES
+
+Slot Name       : CollapseFlag  
+Returns         : none | soft | hard  
+Type            : String enum  
+Ξ-Compliance    : YES
+
+Slot Name       : ActiveGlyph  
+Returns         : String (e.g. Ξ(ψ))  
+Type            : Symbolic identifier  
+Ξ-Compliance    : YES
+
+Slot Name       : feedback_mod  
+Returns         : Float (positive or negative drift)  
+Type            : Scalar  
+Ξ-Compliance    : YES
+
+Slot Name       : entropy  
+Returns         : Float  
+Type            : Scalar  
+Ξ-Compliance    : YES
+
+Slot Name       : All  
+Returns         : Dictionary containing all above fields  
+Ξ-Compliance    : YES
+
+Notes:
+- All slots operate under Ξ-boundary rules.
+- No access to `.hme`, Ξ(ψ), ψᴽ_reflection.json is permitted.
+- Use `qoft_slots.py` or `slot_server.py` to retrieve values safely.
+- Integrate with external systems via SLOT_GUIDE.md instructions.
