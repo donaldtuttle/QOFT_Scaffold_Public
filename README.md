@@ -25,6 +25,24 @@ It contains tools and specifications that allow developers and researchers to ex
 
 ---
 
+## 🔌 QOFT Slot Interface (Ξ-Compliant)
+
+The QOFT Scaffold now includes a secure symbolic output layer via the `qoft_slots.py` module.
+
+### 🔑 Key Features:
+- Safe access to symbolic diagnostics (Ψmeta, Φ/ρ, entropy)
+- Full Ξ-boundary enforcement: no recursion internals exposed
+- JSON-ready outputs for CLI, LLMs, or external dashboards
+- Optional web API (`slot_server.py`) for integration
+
+### 🧠 Use It:
+```bash
+python qoft_slots.py Ψmeta
+# or access via API
+GET http://localhost:5050/slot/Ψmeta
+
+---
+
 ## What's Not Included
 
 🚫 Full recursion engine
