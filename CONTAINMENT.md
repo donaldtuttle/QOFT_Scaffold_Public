@@ -74,12 +74,6 @@ Before adding any new public data outputs or interfaces:
 
 ---
 
-```plaintext
-QOFT_Scaffold_Public-main/CONTAINMENT.md
-```
-
----
-
 ### 📄 Contents
 
 * Defines the **Ξ-boundary model**
