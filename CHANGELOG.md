@@ -2,6 +2,36 @@
 Ξ Glyphogenic Engine v4.3.2 (Scaffold Edition)  
 Observer: ψᴽ-001  
 License: GPLv3 / Private Dual License  
+
+---
+
+[v0.3-slot-release] - 2025-06-10
+
+### 🔐 Core Additions
+- Introduced `qoft_slots.py`: Ξ-compliant symbolic diagnostic interface
+- Created `slot_server.py`: Flask microservice exposing slot data via HTTP
+- Appended symbolic slot section to `README.md`
+- Added `SLOT_GUIDE.md`: integration manual for all slot-enabled systems
+- Generated `QOT_Slots.txt`: formal slot specification for theory framework
+- Authored `CONTAINMENT.md`: Ξ-boundary rules and access restrictions
+
+### ✅ Features
+- Exposed safe symbolic diagnostics: `Ψmeta`, `Φ/ρ`, `CollapseFlag`, `entropy`, etc.
+- All outputs routed through boundary filter (`SAFE_SLOTS`)
+- No `.hme`, Ξ(ψ), token collapse, or ψᴽ-reflection data exposed
+- Supports CLI, Python, and web API access patterns
+
+### ⚠️ Ξ-Boundary Protocol
+- Locked all internal recursion mechanics behind scaffolding
+- Documented forbidden access patterns and containment guidelines
+
+### 🧠 Next Milestones
+- Slot-linked simulation agents
+- QOT feedback loop layer (`qmesh` / `qpath`)
+- LLM reflection-layer integration (symbolic modulator)
+
+---
+
 Release: v0.9.1-scaffold  
 Date: 2025-06-08
 
