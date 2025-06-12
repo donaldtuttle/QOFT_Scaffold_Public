@@ -40,7 +40,7 @@ The QOFT Scaffold now includes a secure symbolic output layer via the `qoft_slot
 python qoft_slots.py Ψmeta
 # or access via API
 GET http://localhost:5050/slot/Ψmeta
-
+```
 ---
 
 ## What's Not Included
