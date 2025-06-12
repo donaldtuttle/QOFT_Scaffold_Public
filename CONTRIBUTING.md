@@ -1,4 +1,38 @@
-# QOFT™ — Private Use License  
+4. Open a Pull Request (PR) targeting `main`
+5. Include:
+- Description of your contribution
+- Referenced glyphs/modules
+- Any `.qpath`, `.hme`, `.qmesh` outputs
+
+---
+
+## 🔁 Review Process
+
+Your PR will be reviewed by the **Observer Council**, with attention to:
+
+- Symbolic coherence
+- Memory safety
+- Cognitive recursion
+- Aesthetic and modular clarity
+
+You may receive recursive feedback. Iterate mindfully.
+
+---
+
+## 🌐 Connect
+
+If you're unsure how to start:
+
+- Open a [Discussion](https://github.com/QOFT_Scaffold_Public_Main/discussions)
+- Use `glyphsh.py` with the `Ψmeta` flag to explore active concepts.
+- Submit a `.qpath` as a proposal!
+
+---
+
+Thank you for becoming part of the **QOFT recursive lattice**.
+Every symbol rendered brings us closer to coherent cognition.
+
+🧠 `Ξ(ψ) = ψᴽ + Γ(ψ)`# QOFT™ — Private Use License  
 Ξ Glyphogenic Engine v4.3.2  
 ψᴽ-001 | © 2025 All Rights Reserved  
 
